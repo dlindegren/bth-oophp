@@ -53,12 +53,9 @@ $menu = CNavigation::GenerateMenu($menuItems);
  * Creating the db-connection.
  *
  */
-define('DB_USER', 'root'); //Lokalt
-define('DB_PASSWORD', ""); //Lokalt
-//define('DB_USER', 'dald15'); //BTH
-//define('DB_PASSWORD', '93YN7.Cx'); //BTH
-//$dlinde ['database']['dsn']             = 'mysql:host=blu-ray.student.bth.se;dbname=dald15;'; 
-//$dlinde['database']['dsn']            = 'mysql:host=localhost;dbname=Movie;'; 
+define('DB_USER', 'dald15'); //BTH
+define('DB_PASSWORD', '93YN7.Cx'); //BTH
+$dlinde ['database']['dsn']             = 'mysql:host=blu-ray.student.bth.se;dbname=dald15;'; 
 $dlinde['database']['dsn']            	= 'mysql:host=localhost;dbname=dald15;';
 $dlinde ['database']['username']        = DB_USER; 
 $dlinde ['database']['password']        = DB_PASSWORD;
