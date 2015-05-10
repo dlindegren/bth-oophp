@@ -1,7 +1,7 @@
 DLINDE
 ==============
 
-DLINDE: A PHP framework for smaller websites. This framework is based on ANAX which is built by Mikael Roos: https://github.com/mosbth/Anax-base. 
+DLINDE: A PHP framework for smaller websites, developed during a course at Blekinges Tekniska Högskola, Databaser och objektorienterad programmering i PHP. This framework is based on ANAX which is built by Mikael Roos: https://github.com/mosbth/Anax-base. 
 
 Classes
 --------------
