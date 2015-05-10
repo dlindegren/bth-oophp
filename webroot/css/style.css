@@ -1,0 +1,313 @@
+/* Error */
+.xdebug-error {
+  position: relative;
+  margin: 30%;
+}
+
+/* HTML, BODY */
+html, body {}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-bottom: 60px;
+  background-color: #EEEEEE;
+}
+
+/* NAV */
+#topnav > nav {
+  background-color: #006699;
+  text-transform: uppercase;
+}
+.navbar {
+  border-radius: 0px;
+}
+.navbar-default {
+  border-color: #006699;
+}
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  -webkit-transition: background-color 0.7s;
+  transition: background-color 0.7s;
+}
+
+#navbar > ul > li > a:hover {
+  background-color: #004568;
+  color: white;
+  
+}
+#topnav > nav > div > div.navbar-header > button {
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  -webkit-transition: background-color 0.7s;
+  transition: background-color 0.7s;
+}
+#topnav > nav > div > div.navbar-header > button:hover {
+  background-color: #004568;
+}
+
+/* HEADER */
+#header {
+  /*background: url('../img/background.png');
+  background-repeat: none;*/
+  background-color: white;
+  margin-top: 50px;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  -webkit-box-shadow: inset 0px 1px 5px 0px rgba(50, 50, 50, 0.8);
+  -moz-box-shadow: inset 0px 1px 5px 0px rgba(50, 50, 50, 0.8);
+  box-shadow: inset 0px 1px 5px 0px rgba(50, 50, 50, 0.8);
+}
+.header-text {
+
+}
+.slogan {
+  text-transform: uppercase;
+}
+
+/* CONTENT */
+.page-content {
+  background-color: white;
+  box-shadow:0 1px 2px #aaa;
+  padding: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.page-content p {
+  font-size: 1.25em;
+}
+
+/* MOVIES */
+.genres {
+  padding: 0;
+}
+.genre-holder {
+  padding: 0;
+}
+.genre-holder > h2 {
+  padding-left: 0.5em;
+}
+.genre-holder > ul {
+  list-style: none;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+.genre-holder > ul > li {
+  padding: 1em;
+  font-size: 1.5em;
+}
+.genre-holder > ul > li:nth-child(even) {
+  background-color: white;
+}
+.genre-holder > ul > li:nth-child(odd) {
+  background-color: #EFEFEF;
+}
+
+.movie-table-holder {
+  padding: 0;
+}
+
+.movie-search-full {
+  width: 100%;
+}
+.movie-search-half {
+  width: 49.5%;
+}
+.center-div-text {
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.show-all-movies {
+  background-color: #006699;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+}
+.show-all-movies a {
+  color: white;
+  -webkit-transition: background-color 0.7s;
+  transition: background-color 0.7s;
+  padding: 1em;
+}
+.show-all-movies a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #004568;
+}
+.active-anchor {
+  background-color: #004568;
+}
+.dbtable {
+  width: 100%;
+  margin-top: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+#main > div > div.col-md-8 > div.col-md-12.page-content.movie-table-holder > div.dbtable > table > tbody > tr> td {
+  padding-top: 1em;
+}
+.movie-table {
+  width: 100%;
+}
+.movie-footer {
+  margin-top: 2em;
+}
+.imdb-link {
+  padding-top: 2em;
+}
+.pages {
+  margin-bottom: 1em;
+}
+#main > div > div > div.row > li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.genre-holder-index {
+  padding-top: 1em;
+  padding-bottom: 2em;
+  font-size: 1.5em;
+}
+
+/* CATEGORY */
+.category-holder {
+  padding: 0;
+}
+.category-holder > h2 {
+  padding-left: 0.5em;
+}
+.category-holder > ul {
+  list-style: none;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+.category-holder > ul > li {
+  padding: 1em;
+  font-size: 1em;
+  display: inline-block;
+}
+.blog-posts {
+  padding: 1em;
+}
+.one-blog-post {
+  border-bottom: solid 2px #006699;
+  padding-bottom: 1em;
+}
+.blog-posts > div > h2 {
+  border-left: 4px #006699 solid;
+  padding-left: 0.5em;
+}
+
+/* USER */
+.movie-controller {
+  margin-top: 2em;
+  border-left: 5px #006699 solid;
+  padding-left: 2em;
+}
+
+.blog-controller {
+  margin-top: 2em;
+  border-left: 5px red solid;
+  padding-left: 2em;
+}
+
+/* Carousel */
+.carousel {
+  margin-bottom: 1em;
+}
+#myCarousel > a.right.carousel-control {
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+}
+#myCarousel > a.left.carousel-control {
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+}
+.carousel-control {
+    color: #006699;
+    opacity: 1;
+}
+.carousel-control:hover {
+  color: #006699;
+  opacity: 0.8;
+}
+
+/* DICE */
+#main > div > div.col-md-6.page-content.text-center > div:nth-child(3) > p:nth-child(1) > a {
+  font-size: 1.5em;
+}
+
+/* Kalender */
+.calendar{
+  width: 100%;
+  padding: 2em;
+  height: 500px;
+  font-size:2em;
+}
+table > tbody > tr.calendar-table > td {
+  width: 14.285714%;
+}
+.calendar-row {
+  padding:1.5em;
+  text-align: center;
+}
+table > tbody > tr.calendar-table > td {
+  border-bottom: 3px #006699 solid;
+  padding-bottom: 0.5em;
+  padding-top: 1em;
+  text-align: center;
+  margin-right: 0.2em;
+  margin-left: 0.2em;
+}
+.image-container {
+  border: 4px #006699 solid;
+  border-radius: 0.5em;
+  margin-bottom: 2em;
+  background-color: black;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.calendar-img-frame {
+  
+}
+.calendar-month {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 2em;
+  font-weight: bold;
+}
+.day-number {
+  border: solid 3px black;
+  margin-left: 1em;
+  margin-right: 1em
+}
+
+/* FOOTER */
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #006699;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  padding-top: 1em;
+}
